@@ -83,7 +83,7 @@ li {
     width: 50%; 
 }
 
-#information-text-heading {
+.info-text-heading {
     position: relative;
     margin-right: 100px;
     top: 200px;
@@ -137,12 +137,20 @@ li {
     height: 175px;
 }
 
+.orientation-info {
+    margin-left: 1143px;
+    position: relative;
+    bottom: 2030px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index:0.5;
+}
+
 .small-container-two {
     background-color: white;
     width: 33%;
     position: relative;
     margin-left: 920px;
-    bottom: 1918px;
+    bottom: 1987px;
     padding-top: 92px; 
     padding-bottom: 92px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -158,11 +166,19 @@ li {
 .on-campus-img {
     position: relative;
     margin-left: 944px;
-    bottom: 2132px;
+    bottom: 2201px;
     display: flex;
     justify-content: right;
     width: auto;
     height: 175px;
+}
+
+.on-campus-info {
+    margin-left: 1143px;
+    position: relative;
+    bottom: 2315px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index:0.5;
 }
 
 .small-container-three {
@@ -170,7 +186,7 @@ li {
     width: 33%;
     position: relative;
     margin-left: 920px;
-    bottom: 2132px;
+    bottom: 2271px;
     padding-top: 92px; 
     padding-bottom: 92px; 
 }
@@ -184,9 +200,38 @@ li {
 .our-guest-img {
     position: relative;
     margin-left: 944px;
-    bottom: 2345px;
+    bottom: 2485px;
     display: flex;
     justify-content: right;
     width: auto;
     height: 175px;
+}
+
+.our-guest-info {
+    margin-left: 1143px;
+    position: relative;
+    bottom: 2595px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index:0.5;
+}
+
+.start-learning-container {
+    background-color: lightgray;
+    position: relative;
+    bottom: 2525px;
+    margin-left: 24px; 
+    margin-right: 24px;
+    padding-top: 350px; 
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-bottom: 250px;
+}
+
+.start-learning-header {
+   display: flex;
+   justify-content: center;
+   position: relative;
+   bottom: 275px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 2rem;
 }
