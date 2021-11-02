@@ -111,13 +111,30 @@ li {
 }
 
 .small-container-one {
-    background-color:palevioletred;
+    background-color: white;
     width: 33%;
     position: relative;
     margin-left: 920px;
     bottom: 1704px;
     padding-top: 92px; 
     padding-bottom: 92px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid lightslategrey;
+}
+.orientation-date-header {
+    margin-left: 220px;
+    position: relative;
+    bottom: 65px;
+}
+
+.orientation-img {
+    position: relative;
+    margin-left: 944px;
+    bottom: 1910px;
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 175px;
 }
 
 .small-container-two {
