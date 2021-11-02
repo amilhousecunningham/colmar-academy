@@ -1,0 +1,29 @@
+#header{
+    position: fixed;
+}
+
+.lion-img {  
+    margin-left: 24px;  
+}
+
+#title{
+    display: inline;   
+    text-transform: uppercase; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 32px;
+}
+
+.academy-word{
+    font-weight: lighter;
+}
+
+.navigation {
+    display: inline;
+    margin-left: 330px;
+    margin-right: 24px; 
+}
+
+li {
+    display: inline;   
+    padding-left: 40px;
+}
