@@ -51,6 +51,8 @@ li {
     position: relative;
     bottom: 200px;
     margin-left: 1000px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .learning-header {
@@ -71,9 +73,69 @@ li {
 .white-background {
     position: relative;
     bottom: 498px;
-    background-color:purple;
+    background-color: white;
     margin-left: 24px; 
     margin-right: 24px;
-    padding: 200px 75px;
+    padding-top: 250px; 
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-bottom: 350px;
     width: 50%; 
+}
+
+#information-text-heading {
+    position: relative;
+    margin-right: 100px;
+    top: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+
+}
+
+.information-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 1260px;
+    margin: 0px 48px;
+    width: 60%; 
+    height: 400px;
+}
+
+.information-text-paragraph {
+    position: relative;
+    margin-left: 48px;
+    bottom: 650px;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.small-container-one {
+    background-color:palevioletred;
+    width: 33%;
+    position: relative;
+    margin-left: 920px;
+    bottom: 1704px;
+    padding-top: 92px; 
+    padding-bottom: 92px; 
+}
+
+.small-container-two {
+    background-color: paleturquoise;
+    width: 33%;
+    position: relative;
+    margin-left: 920px;
+    bottom: 1724px;
+    padding-top: 92px; 
+    padding-bottom: 92px; 
+}
+
+.small-container-three {
+    background-color: yellowgreen;
+    width: 33%;
+    position: relative;
+    margin-left: 920px;
+    bottom: 1744px;
+    padding-top: 92px; 
+    padding-bottom: 92px; 
 }
