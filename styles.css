@@ -138,21 +138,55 @@ li {
 }
 
 .small-container-two {
-    background-color: paleturquoise;
+    background-color: white;
     width: 33%;
     position: relative;
     margin-left: 920px;
-    bottom: 1724px;
+    bottom: 1918px;
+    padding-top: 92px; 
+    padding-bottom: 92px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid lightslategrey;
+}
+
+.on-campus-header {
+    margin-left: 220px;
+    position: relative;
+    bottom: 65px;
+}
+
+.on-campus-img {
+    position: relative;
+    margin-left: 944px;
+    bottom: 2132px;
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 175px;
+}
+
+.small-container-three {
+    background-color: lightgray;
+    width: 33%;
+    position: relative;
+    margin-left: 920px;
+    bottom: 2132px;
     padding-top: 92px; 
     padding-bottom: 92px; 
 }
 
-.small-container-three {
-    background-color: yellowgreen;
-    width: 33%;
+.our-guest-header {
+    margin-left: 220px;
     position: relative;
-    margin-left: 920px;
-    bottom: 1744px;
-    padding-top: 92px; 
-    padding-bottom: 92px; 
+    bottom: 65px;
+}
+
+.our-guest-img {
+    position: relative;
+    margin-left: 944px;
+    bottom: 2345px;
+    display: flex;
+    justify-content: right;
+    width: auto;
+    height: 175px;
 }
