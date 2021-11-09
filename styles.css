@@ -83,18 +83,18 @@ li {
     width: 50%; 
 }
 
-.info-text-heading {
+#info-heading {    
     position: relative;
-    margin-right: 100px;
+    right: 70px;
     top: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2rem;
-
+    z-index:0.5;
 }
 
 .information-img {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     position: relative;
     bottom: 1260px;
     margin: 0px 48px;
@@ -235,3 +235,13 @@ li {
    font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 2rem;
 }
+
+.start-images{
+    /* display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px; */
+
+}
+
